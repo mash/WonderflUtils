@@ -1,1 +1,1 @@
-compc -source-path . -output WonderflUtils.swc -include-sources .
+compc -load-config+=compc-config.xml

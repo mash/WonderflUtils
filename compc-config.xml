@@ -1,0 +1,13 @@
+<flex-config>
+	<compiler>
+		<debug>false</debug>
+		<source-path>
+			<path-element>.</path-element>
+		</source-path>
+	</compiler>
+	<include-classes>
+		<class>net.wonderfl.utils.ClassLoader</class>
+		<class>net.wonderfl.utils.FontLoader</class>
+	</include-classes>
+	<output>WonderflUtils.swc</output>
+</flex-config>
