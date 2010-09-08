@@ -15,7 +15,7 @@ package net.wonderfl.data
 			super(data);
 			if (isOK)
 			{
-				_forks = new Vector.<ScoreData>();
+				_forks = new Vector.<ForkCodeData>();
 				var arr: Array = _data.forks;
 				_length = arr.length;
 				for (var i: int = 0; i < _length; i++) 

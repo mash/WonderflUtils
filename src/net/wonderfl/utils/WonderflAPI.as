@@ -128,6 +128,16 @@ package net.wonderfl.utils
 			return { "api_key": _openAPIKey, "name": name, "score": (score || _viewerDisplayName) };
 		}
 		
+		/**
+		 * User Codes API の URL を取得
+		 * @param	name	: ユーザー名。指定しなかった場合はコンストラクタで指定した viewer.displayName が使用される。
+		 * @return
+		 */
+		public function apiUserCodes(name: String = null): String
+		{
+			return _apiUserCodes.replace(/%NAME%/, name || _viewerDisplayName);
+		}
+		
 		
 		
 		public function get key(): String { return _key; }
