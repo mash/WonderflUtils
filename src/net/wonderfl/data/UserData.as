@@ -22,6 +22,11 @@ package net.wonderfl.data
 		 */
 		public function get description(): String { return _data.description; }
 		
+		
+       /**
+        * ユーザのコード数
+        */
+        public function get code_count(): int { return _data.code_count; }
 	}
 
 }
