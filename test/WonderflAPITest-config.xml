@@ -7,7 +7,7 @@
 			<path-element>../src</path-element>
 		</source-path>
 		<library-path>
-			<path-element>../lib</path-element>
+			<path-element>../bin</path-element>
 		</library-path>
 	</compiler>
 	<static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
