@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <flex-config>
 	<compiler>
-		<debug>true</debug>
+		<debug>false</debug>
 		<source-path>
 			<path-element>.</path-element>
 			<path-element>../src</path-element>
 		</source-path>
 		<library-path>
+			<path-element>../lib</path-element>
 			<path-element>../bin</path-element>
 		</library-path>
 	</compiler>
