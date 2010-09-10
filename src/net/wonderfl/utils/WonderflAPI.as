@@ -56,7 +56,6 @@ package net.wonderfl.utils
 			_apiScoreGet  = API_SCORE_GET.replace(/%API_KEY%/, _apiKey);
 			_apiScoreSet  = API_SCORE_SET.replace(/%API_KEY%/, _apiKey);
 			_apiUserCodes = API_USER_CODES.replace(/%API_KEY%/, _apiKey);
-			
 		}
 		
 		/**

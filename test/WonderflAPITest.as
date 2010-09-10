@@ -93,7 +93,7 @@ class Test {
 }
 
 class ApiTest extends Test {
-    public function ApiTest(url:String, resultClass:Class) {
+    public function ApiTest(apiRequest:URLRequest, resultClass:Class) {
         var ldr:URLLoader = new URLLoader;
         ldr.addEventListener(Event.COMPLETE, function _complete(e:*):void {
             ldr.removeEventListener(Event.COMPLETE, _complete);
@@ -106,8 +106,8 @@ class ApiTest extends Test {
         });
         super(function ():void {
             trace('------------------------------');
-            trace('loading data from ... ' + url);
-            ldr.load(new URLRequest(url));
+            trace('loading data from ... ' + apiRequest.url);
+            ldr.load(apiRequest);
         });
     }
 }
