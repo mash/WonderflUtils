@@ -1,6 +1,7 @@
 package net.wonderfl.data 
 {
 	/**
+	 * The result object of code api.
 	 * Code API で取得したデータオブジェクト
 	 * http://api.wonderfl.net/code/[app_id]?api_key=[api_key]
 	 * @author jc at bkzen

@@ -1,6 +1,7 @@
 package net.wonderfl.data 
 {
 	/**
+	 * Object for the forked code
 	 * フォークされたコードのデータオブジェクト
 	 * @author jc at bkzen
 	 */
@@ -15,6 +16,7 @@ package net.wonderfl.data
 		}
 		
 		/**
+		 * User name.
 		 * ユーザーデータ
 		 */
 		public function get user(): SmallUserData { return _user; }

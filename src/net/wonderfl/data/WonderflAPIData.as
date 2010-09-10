@@ -1,6 +1,7 @@
 package net.wonderfl.data 
 {
 	/**
+	 * The basic api response object.
 	 * Wonderfl API のデータオブジェクト
 	 * @author jc at bkzen
 	 */

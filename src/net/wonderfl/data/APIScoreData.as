@@ -1,6 +1,7 @@
 package net.wonderfl.data 
 {
 	/**
+	 * The result object of score api
 	 * Score API で取得したデータオブジェクト
 	 * http://api.wonderfl.net/score/[app_id]?api_key=[api_key]
 	 * @author jc at bkzen
@@ -27,12 +28,13 @@ package net.wonderfl.data
 		}
 		
 		/**
+		 * The numbers of score data
 		 * ScoreData の個数
 		 */
 		public function get length(): int { return _length; }
 		
 		/**
-		 * ScoreData の配列
+		 * The vector of the score data
 		 */
 		public function get scores(): Vector.<ScoreData> { return _scores; }
 		

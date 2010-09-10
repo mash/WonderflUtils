@@ -1,6 +1,7 @@
 package net.wonderfl.data 
 {
 	/**
+	 * A record of the scrore
 	 * 1つのスコアデータオブジェクト
 	 * @author jc at bkzen
 	 */
@@ -14,11 +15,13 @@ package net.wonderfl.data
 		}
 		
 		/**
+		 * Score
 		 * スコア
 		 */
 		public function get score(): int { return _data.score; }
 		
 		/**
+		 * User name
 		 * ユーザー名
 		 */
 		public function get name(): String { return _data.name; }

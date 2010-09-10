@@ -1,6 +1,7 @@
 package net.wonderfl.data 
 {
 	/**
+	 * User Data object, which used in code data.
 	 * Code の情報データに使用される最低限のユーザーデータオブジェクト
 	 * @author jc at bkzen
 	 */
@@ -14,11 +15,13 @@ package net.wonderfl.data
 		}
 		
 		/**
+		 * The url of the user icon.
 		 * ユーザーのアイコンURL
 		 */
 		public function get icon(): String { return _data.icon; }
 		
 		/**
+		 * The name of the user.
 		 * ユーザーの名前
 		 */
 		public function get name(): String { return _data.name; }
